@@ -1,3 +1,12 @@
+let navToggler = document.querySelector('.nav-toggler');
+let linksContainer = document.querySelector('.links-container')
+
+navToggler.addEventListener('click', ()=>{
+    linksContainer.classList.toggle('active')
+    navToggler.classList.toggle('active')
+})
+
+
 let reviews = document.querySelectorAll('.review-wrapper')
 let currentReviews = [0, 2]
 
